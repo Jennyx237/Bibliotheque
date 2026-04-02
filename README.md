@@ -19,9 +19,9 @@ Les classes suivantes doivent être définies :
  Un auteur est défini par :son nom (string),un indicateur indiquant s’il a reçu un prix
 
   Méthodes :
-    -Constructeur (nom + indicateur, false par défaut)
-    -getNom()
-    -getPrix()
+    1.Constructeur (nom + indicateur, false par défaut)
+    2.getNom()
+    3.getPrix()
 
 ➡️ Un Auteur ne doit pas être copiable
 
@@ -32,24 +32,24 @@ Les classes suivantes doivent être définies :
      -sa langue (string)
 
   Méthodes :
-    -constructeur (titre, auteur, langue)
-    -getTitre()
-    -getAuteur() (retourne une référence constante)
-    -getLangue()
-    -affiche() → format :<titre>, <auteur>, en <langue>
-    -destructeur affichant : "L’oeuvre <titre>, <auteur>, en <langue> n’est plus disponible."
+    1.constructeur (titre, auteur, langue)
+    2.getTitre()
+    3.getAuteur() (retourne une référence constante)
+    4.getLangue()
+    5.affiche() → format : <titre>, <auteur>, en <langue>
+    6.destructeur affichant : "L’oeuvre <titre>, <auteur>, en <langue> n’est plus disponible."
 ➡️ Une Oeuvre ne doit pas être copiable
 
 ### Classe Exemplaire
     Un exemplaire est défini par une référence à une œuvre.
 
     Méthodes :
-      -constructeur → affiche :
-      -Nouvel exemplaire de : <titre>, <auteur>, en <langue>
-      -constructeur de copie → affiche :Copie d’un exemplaire de : <titre>, <auteur>, en <langue>
-      -destructeur → affiche : Un exemplaire de "<titre>, <auteur>, en <langue>" a été jeté !
-      -getOeuvre()
-      -affiche() →Exemplaire de : <titre>, <auteur>, en <langue>
+      1.constructeur → affiche :
+      2.Nouvel exemplaire de : <titre>, <auteur>, en <langue>
+      3.constructeur de copie → affiche :Copie d’un exemplaire de : <titre>, <auteur>, en <langue>
+      4.destructeur → affiche : Un exemplaire de "<titre>, <auteur>, en <langue>" a été jeté !
+      5.getOeuvre()
+      6.affiche() →Exemplaire de : <titre>, <auteur>, en <langue>
       
 ### Classe Bibliotheque
      Une bibliothèque est définie par :
