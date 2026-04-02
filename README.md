@@ -16,7 +16,7 @@ Les classes suivantes doivent être définies :
   -Bibliotheque
 
 ### Classe Auteur
- Un auteur est défini par :son nom (string),un indicateur indiquant s’il a reçu un prix
+    Un auteur est défini par :son nom (string),un indicateur indiquant s’il a reçu un prix
 
   Méthodes :
     1.Constructeur (nom + indicateur, false par défaut)
@@ -26,7 +26,7 @@ Les classes suivantes doivent être définies :
 ➡️ Un Auteur ne doit pas être copiable
 
 ### Classe Oeuvre
-   Une œuvre est définie par :
+    Une œuvre est définie par :
      -son titre (string)
      -une référence constante vers son auteur
      -sa langue (string)
