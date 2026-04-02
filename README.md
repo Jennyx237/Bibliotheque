@@ -1,21 +1,21 @@
-Bibiotheque
-Le programme :
-  -crée des auteurs
-  -crée des œuvres associées
-  -stocke des exemplaires dans une bibliothèque
-  -liste les exemplaires
-  -filtre ceux en anglais
-  -affiche les auteurs à succès
-  -compte les exemplaires d’une œuvre
+# Bibiotheque
+  Le programme :
+     -crée des auteurs
+     -crée des œuvres associées
+     -stocke des exemplaires dans une bibliothèque
+     -liste les exemplaires
+     -filtre ceux en anglais
+     -affiche les auteurs à succès
+     -compte les exemplaires d’une œuvre
 
-Classes à implémenter
+## Classes à implémenter
 Les classes suivantes doivent être définies :
   -Auteur
   -Oeuvre
   -Exemplaire
   -Bibliotheque
 
-Classe Auteur
+### Classe Auteur
  Un auteur est défini par :son nom (string),un indicateur indiquant s’il a reçu un prix
 
   Méthodes :
@@ -25,14 +25,13 @@ Classe Auteur
 
 ➡️ Un Auteur ne doit pas être copiable
 
-Classe Oeuvre
+### Classe Oeuvre
    Une œuvre est définie par :
      -son titre (string)
      -une référence constante vers son auteur
      -sa langue (string)
 
   Méthodes :
-
     -constructeur (titre, auteur, langue)
     -getTitre()
     -getAuteur() (retourne une référence constante)
@@ -41,7 +40,7 @@ Classe Oeuvre
     -destructeur affichant : "L’oeuvre <titre>, <auteur>, en <langue>" n’est plus disponible.
 ➡️ Une Oeuvre ne doit pas être copiable
 
-Classe Exemplaire
+### Classe Exemplaire
     Un exemplaire est défini par une référence à une œuvre.
 
     Méthodes :
@@ -52,7 +51,7 @@ Classe Exemplaire
       -getOeuvre()
       -affiche() →Exemplaire de : <titre>, <auteur>, en <langue>
       
-Classe Bibliotheque
+### Classe Bibliotheque
      Une bibliothèque est définie par :
        -un nom
        -un ensemble de pointeurs vers des exemplaires (vector)
