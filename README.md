@@ -1,4 +1,4 @@
-# Bibiotheque
+# Bibliotheque
   Le programme :
      -crée des auteurs
      -crée des œuvres associées
