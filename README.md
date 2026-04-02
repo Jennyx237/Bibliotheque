@@ -1,21 +1,21 @@
-#Bibiotheque
+Bibiotheque
 Le programme :
--crée des auteurs
--crée des œuvres associées
--stocke des exemplaires dans une bibliothèque
--liste les exemplaires
--filtre ceux en anglais
--affiche les auteurs à succès
--compte les exemplaires d’une œuvre
+  -crée des auteurs
+  -crée des œuvres associées
+  -stocke des exemplaires dans une bibliothèque
+  -liste les exemplaires
+  -filtre ceux en anglais
+  -affiche les auteurs à succès
+  -compte les exemplaires d’une œuvre
 
-##Classes à implémenter
+Classes à implémenter
 Les classes suivantes doivent être définies :
--Auteur
--Oeuvre
--Exemplaire
--Bibliotheque
+  -Auteur
+  -Oeuvre
+  -Exemplaire
+  -Bibliotheque
 
-###Classe Auteur
+Classe Auteur
  Un auteur est défini par :son nom (string),un indicateur indiquant s’il a reçu un prix
 
   Méthodes :
