@@ -36,7 +36,7 @@ Les classes suivantes doivent être définies :
     -getTitre()
     -getAuteur() (retourne une référence constante)
     -getLangue()
-    -affiche() → format :"<titre>, <auteur>, en <langue>"
+    -affiche() → format :<titre>, <auteur>, en <langue>
     -destructeur affichant : "L’oeuvre <titre>, <auteur>, en <langue> n’est plus disponible."
 ➡️ Une Oeuvre ne doit pas être copiable
 
