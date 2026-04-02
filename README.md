@@ -18,10 +18,10 @@ Les classes suivantes doivent être définies :
 ### Classe Auteur
     Un auteur est défini par :son nom (string),un indicateur indiquant s’il a reçu un prix
 
-  Méthodes :
-    1.Constructeur (nom + indicateur, false par défaut)
-    2.getNom()
-    3.getPrix()
+     Méthodes :
+       1.Constructeur (nom + indicateur, false par défaut)
+       2.getNom()
+       3.getPrix()
 
 ➡️ Un Auteur ne doit pas être copiable
 
@@ -31,13 +31,13 @@ Les classes suivantes doivent être définies :
      -une référence constante vers son auteur
      -sa langue (string)
 
-  Méthodes :
-    1.constructeur (titre, auteur, langue)
-    2.getTitre()
-    3.getAuteur() (retourne une référence constante)
-    4.getLangue()
-    5.affiche() → format : <titre>, <auteur>, en <langue>
-    6.destructeur affichant : "L’oeuvre <titre>, <auteur>, en <langue> n’est plus disponible."
+     Méthodes :
+        1.constructeur (titre, auteur, langue)
+        2.getTitre()
+        3.getAuteur() (retourne une référence constante)
+        4.getLangue()
+        5.affiche() → format : <titre>, <auteur>, en <langue>
+        6.destructeur affichant : "L’oeuvre <titre>, <auteur>, en <langue> n’est plus disponible."
 ➡️ Une Oeuvre ne doit pas être copiable
 
 ### Classe Exemplaire
