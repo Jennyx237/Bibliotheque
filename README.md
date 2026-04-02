@@ -38,9 +38,7 @@ Classe Oeuvre
     -getAuteur() (retourne une référence constante)
     -getLangue()
     -affiche() → format :<titre>, <auteur>, en <langue>
-    -destructeur affichant :
-
-L’oeuvre "<titre>, <auteur>, en <langue>" n’est plus disponible.
+    -destructeur affichant : "L’oeuvre <titre>, <auteur>, en <langue>" n’est plus disponible.
 ➡️ Une Oeuvre ne doit pas être copiable
 
 Classe Exemplaire
@@ -65,7 +63,7 @@ Classe Bibliotheque
         -stocker() qui ajoute un ou plusieurs exemplaires d’une œuvre ,allocation dynamique obligatoire,ajout en fin de vector
         -lister_exemplaires() qui affiche tous les exemplaires ou ceux d’une langue donnée
         -compter_exemplaires()
-        -afficher_auteurs(bool) qui affiche les auteurs et options pour filtrer les auteurs primés
+        -afficher_auteurs(bool) qui affiche les auteurs et options pour filtrer les auteurs primé        
         -destructeur → affiche :"La bibliothèque <nom> ferme ses portes,et détruit ses exemplaires ":puis libère la mémoire
 
       Ces méthodes constituent l’interface des classes. 
